@@ -1,4 +1,5 @@
 import streamlit as st
+from footer import footer
 
 st.set_page_config(page_title="인공지능과 미래사회", layout="wide")
 
@@ -113,3 +114,5 @@ with st.expander("📌 정답 보기"):
     st.markdown("**정답: D**  \n연필 생산은 단순한 기계 자동화이며, 인공지능 기술이 특별히 활용되지는 않습니다.")
 
 st.markdown("---")
+
+footer()

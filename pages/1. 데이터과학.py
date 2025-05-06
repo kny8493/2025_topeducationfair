@@ -1,5 +1,5 @@
 import streamlit as st
-
+from footer import footer
 st.set_page_config(page_title="데이터 과학", layout="wide")
 
 st.title("📊 데이터 과학")
@@ -142,3 +142,6 @@ with st.expander("📌 정답 보기"):
 
 st.markdown("---")
 st.info("💡 데이터를 다루는 능력은 미래 사회에서 꼭 필요한 핵심 역량입니다!")
+
+
+footer()

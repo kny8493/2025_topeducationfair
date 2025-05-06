@@ -1,5 +1,5 @@
 import streamlit as st
-
+from footer import footer
 st.set_page_config(page_title="정보 교과 선택 안내", layout="wide")
 
 st.title("🧠 정보 교과 선택 과목 안내")
@@ -60,3 +60,4 @@ with st.expander("💡 융합선택 - 소프트웨어와 생활"):
     - 소프트웨어를 통해 효율적/창의적 해결  
     - 사회 기여적 태도 함양
     """)
+footer()

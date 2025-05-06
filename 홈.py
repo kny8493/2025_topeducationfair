@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+from footer import footer
 
 
 # 메인 헤더
@@ -103,3 +104,5 @@ df = pd.DataFrame(data)
 st.dataframe(df, use_container_width=True)
 
 
+
+footer() 

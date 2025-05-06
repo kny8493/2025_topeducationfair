@@ -1,4 +1,5 @@
 import streamlit as st
+from footer import footer
 
 st.set_page_config(page_title="프로그래밍 (Python)", layout="wide")
 
@@ -123,3 +124,6 @@ st.subheader("3. 프로그래밍 수업은 학교 교육과정에서 언제 개�
 st.markdown("A. 1학년  \nB. 2학년 1학기  \nC. 2학년 2학기  \nD. 3학년 1학기")
 with st.expander("📌 정답 보기"):
     st.markdown("**정답: C**  \n2022 개정 교육과정 기준으로 대부분 중학교에서는 **2학년 2학기**에 프로그래밍 중심 정보 수업이 개설됩니다. (학교에 따라 다를 수 있음)")
+
+
+footer()
